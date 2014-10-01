@@ -1,0 +1,7 @@
+.footer {
+    @include span(12 wide of 12 no-gutters); //aka width-100%, no margins
+    min-height: rhythm(5, 16px);
+    padding-top: rhythm(1, 16px);
+    border-top: .1em solid rgba(blue, .25);
+    background-color: rgba(blue, .05);
+}

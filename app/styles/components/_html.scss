@@ -1,0 +1,10 @@
+html {
+    font-family: helvetica, arial, sans-serif;
+    min-height: 100vh;
+    @include container;
+    @extend %font-helpers;
+}
+
+body {
+    min-height: 100vh;
+}

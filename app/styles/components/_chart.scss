@@ -1,0 +1,11 @@
+.chart {
+    background-color: rgba(blue, .10);
+}
+.chart rect {
+    stroke:white;
+    fill: lighten(blue, 10%);
+}
+.chart text {
+    @include adjust-font-size-to(9px);
+    color: rgba(black, .65);
+}

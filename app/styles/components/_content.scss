@@ -1,0 +1,6 @@
+.content {
+    @include span(12 wide of 12 no-gutters); //aka width-100%, no margins
+    margin-top: rhythm(2.5, 16px);
+    padding: rhythm(1, 16px) gutters(1.5) 0;
+    @include translateZ(5);
+}

@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    @include translateZ(50);
+    border-bottom: .1em solid rgba(blue, .25);
+    background-color: lighten(blue, 45%);
+
+    &-text {
+        @include adjust-font-size-to(38px);
+        @include rhythm-padding(.25, .25, 38px);
+        text-align: center;
+        font-weight: normal;
+        color: rgba(black, .6);
+    }
+}
