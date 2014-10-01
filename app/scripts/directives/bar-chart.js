@@ -5,6 +5,7 @@
  * @name currencyApp.directive:barChart
  * @description
  * # barChart
+ * Most D3 stuff courtesy of: http://hdnrnzk.me/2012/07/04/creating-a-bar-graph-using-d3js/
  */
 
 angular
